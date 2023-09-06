@@ -38,7 +38,7 @@ jobs:
         registry_url: 'docker.io'
         repository_name: 'gulab1102/exam-github'
         user_name: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_TOKEN }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
         image_version: 'v1.0'
         docker_file: '.'
 
