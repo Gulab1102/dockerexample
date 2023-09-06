@@ -36,7 +36,6 @@ jobs:
       uses: MaximilianoBz/dockerhub-buildpush@v1.0
       with:
         image: gulab1102/exam-github
-        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
