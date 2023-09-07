@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 
 @SpringBootApplication
-public class ExamprojectApplication extends SpringBootServletInitializer{
+public class ExamprojectApplication{
 //	@Autowired
 //	private UserService userService;
 
@@ -16,11 +16,11 @@ public class ExamprojectApplication extends SpringBootServletInitializer{
 	}
 
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		// TODO Auto-generated method stub
-		return builder.sources(ExamprojectApplication.class);
-	}
+//	@Override
+//	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+//		// TODO Auto-generated method stub
+//		return builder.sources(ExamprojectApplication.class);
+//	}
 	
 	
 
