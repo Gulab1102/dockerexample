@@ -21,7 +21,7 @@ import com.exam.model.UserRole;
 import com.exam.services.UserService;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("/user")
 @CrossOrigin("*")
 public class UserController {
 //@Autowired
@@ -57,6 +57,13 @@ public class UserController {
 	public User getUser(@PathVariable("userName") String userName) {
 		
 		return this.userService.getUser(userName);
+		
+	}
+	
+	@GetMapping("/nope")
+	public String test() {
+		
+		return "test";
 		
 	}
 	
