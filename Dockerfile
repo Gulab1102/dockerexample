@@ -1,6 +1,6 @@
 FROM openjdk:17
 
 
-COPY target/examproject.jar examproject.jar
+COPY target/examproject.war examproject.war
 
-ENTRYPOINT [ "java","-jar","examproject.jar" ]
+ENTRYPOINT [ "java","-jar","examproject.war" ]
