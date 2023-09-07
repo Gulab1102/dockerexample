@@ -63,7 +63,7 @@ public class UserController {
 	@GetMapping("/nope")
 	public String test() {
 		
-		return "test";
+		return  "Github ci/cd from jetkins ";
 		
 	}
 	

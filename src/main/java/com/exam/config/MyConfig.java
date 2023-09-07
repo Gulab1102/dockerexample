@@ -82,7 +82,6 @@ public class MyConfig {
 				e.printStackTrace();
 			}
 		})
-               
                 
                 .authorizeHttpRequests(authz->{
                         
